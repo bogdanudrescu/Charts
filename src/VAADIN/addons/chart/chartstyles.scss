@@ -1,0 +1,27 @@
+@mixin chartstyles {
+
+	.v-chart {
+
+	}
+
+	.v-chart-stackline {
+		height: 30px;
+		width: 100%;
+		white-space: nowrap;
+	}
+
+	.v-chart-stacklineitem {
+		height: 100%;
+		// min-width: 100px;
+		display: inline-block;
+	}
+
+	.v-chart-stacklineitem.v-right {
+
+	}
+
+	.v-chart-stacklineitem.v-left {
+
+	}
+
+}
